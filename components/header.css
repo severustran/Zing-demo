@@ -1,22 +1,8 @@
 .header-box {
     display: flex;
-    height: 75px;
-    width: 1024px;
+    height: 60px
 }
 
-.logo-zing {
-    padding: 10px 15px
-}
-
-.logo-zing img {
-    width: 75px;
-}
-
-.search-box {
-    padding-top: 10px;
-    
-}
-
-.search-box input {
-    height: 25px;
+.header-box .logo .img-logo {
+    height: 50px;
 }
