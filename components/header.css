@@ -1,8 +1,108 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .header-box {
     display: flex;
     height: 60px
 }
 
+.group-search {
+    width: 100%;
+    display: flex;
+    border: 1px solid #AAA;
+    padding: 0px 10px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.search-box .search {
+    flex-grow: 1;
+}
+
 .header-box .logo .img-logo {
     height: 50px;
+    align-items: center;
+    padding-top: 7px;
+    margin-right: 10px;
+}
+
+.search-box .search .input-txt {
+    border: 0px solid #aaa;
+    height: 25px;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-right: 7px;
+    padding-left: 5px;
+    width: 100%;
+    outline: none;
+}
+
+.search-box .group-search .input-btn .search-icon {
+    padding-top: 5px;
+    margin-left: 10px;
+}
+
+.account-corner {
+    display: flex;
+    margin-left: 10px;
+    width: 200px;
+    align-items: center;
+}
+
+.account-corner .account-info {
+    flex-grow: 1;
+    justify-content: center;
+    color: #AAA;
+    padding-bottom: 5px;
+}
+
+.account-corner .account-info .account-name {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.account-corner .account-info .account-type {
+    font-size: 11px;
+}
+
+.account-corner .avatar .ava {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.account-corner .menu-account .icon-menu {
+    height: 12px;
+    width: 12px;
+}
+
+.main-menu .group-menu {
+    color: #AAA;
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+.main-menu .group-menu a:hover {
+    color: rgb(147, 58, 155);
+}
+
+.main-menu .group-menu .list-menu {
+    color: #AAA;
+    padding-right: 20px;
+    text-decoration: none;
 }
