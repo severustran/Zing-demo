@@ -1,0 +1,44 @@
+.box-of-box {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  a {
+    text-decoration: none;
+    padding: 0px;
+    line-height: 0px;
+    
+  }
+  
+  .box {
+    display: flex;
+    position: relative;
+  }
+  
+  .div1 {
+    height: 240px;
+    width: 240px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.08727240896358546) 100%);
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .icon-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  
+  .box:hover .div1 {
+    opacity: 1;
+    transition: 0.6s
+  }
+  
+  .box:hover .icon-play {
+    opacity: 1;
+    transition: 0.6s
+  }
+  
